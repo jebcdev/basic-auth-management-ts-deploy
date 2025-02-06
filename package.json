@@ -1,0 +1,27 @@
+{
+    "name": "basic-auth-management",
+    "version": "0.0.1",
+    "description": "Parce, esta es una estructura inicial, básica con la configuración de TypeScript,JWT, Express, Bcryptjs, Morgan, Cors y Dotenv.",
+    "main": "./dist/app.js",
+    "scripts": {
+        
+        "start": "node ./app.js"
+    },
+    "keywords": [],
+    "author": "{ JEBC-DeV }",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "class-transformer": "0.5.1",
+        "class-validator": "0.14.1",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "helmet": "^8.0.0",
+        "jsonwebtoken": "9.0.2",
+        "morgan": "1.10.0",
+        "pg": "8.13.1",
+        "reflect-metadata": "^0.2.2",
+        "typeorm": "^0.3.20"
+    }
+}
